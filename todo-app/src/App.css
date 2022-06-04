@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #263238;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #2980b9;
+  width: auto;
+  min-width: 350px;
+  min-height: auto;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #2c3e50;
+  margin-bottom: 10px;
+  border: 1px solid #2c3e50;
+}
+
+.header h1 {
+  background-color: #34495E;
+  color: #f39c12;
+  text-align: center;
+  text-decoration-style: wavy;
+  margin: 30px 75px;
+  border-radius: 10px;
+  border: 1px solid #2c3e50;
+}
+
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 18px;
+  color: #03070c;
+  background-color: #ecf0f1;
+  border: 1px solid #2c3e50;
+  border-radius: 10px;
+}
+
+.button-add {
+  width: 85px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #2c3e50;
+  background-color: #2ecc71;
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1.5px solid #34495E;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 25px;
+  background-color: #34495E;
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+  padding-left: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 22px;
+}
+
+.button-complete {
+  color: #2ECC71;
+  margin-right: 5px;
+}
+
+.button-edit {
+  color: #F1C40F;
+  margin-right: 5px;
+}
+
+.button-delete {
+  color: #C0392B;
+}
+
+.complete {
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #C0392B;
+  opacity: 0.8;
+}
+
+.list {
+  width: 220px;
+  background-color: #ECF0F1;
+  border: none;
+  color: #4d4d4d;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+
+.counter{
+  background-color: #34495E;
+  color: #f39c12;
+  font-weight: bolder;
+  text-align: center;
+  margin: 25px 100px;
+  border-radius: 10px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
