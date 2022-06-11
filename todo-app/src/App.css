@@ -5,7 +5,11 @@
 }
 
 .container {
-  background: #263238;
+  background: linear-gradient(
+    to top,
+    #C0392B,
+    #9B59B6
+  );
   width: 100%;
   min-height: 100vh;
   display: flex;
